@@ -1,0 +1,20 @@
+{
+  "name": "project-1",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "dev": "nodemon src/app.js -e hbs,js"
+  },
+  "author": "Nazeed khan",
+  "license": "ISC",
+  "dependencies": {
+    "bootstrap": "^5.1.3",
+    "express": "^4.17.3",
+    "hbs": "^4.2.0",
+    "jquery": "^3.6.0",
+    "mysql": "^2.18.1",
+    "validator": "^13.7.0"
+  }
+}
